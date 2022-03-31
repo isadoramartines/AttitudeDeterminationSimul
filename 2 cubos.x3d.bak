@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+<head>
+</head>
+<Scene>
+<Transform DEF='Modelo'  scaleOrientation='0 0 0 0' scale='10 10 10' rotation='0 0 0 0' bboxCenter='5 5 5'>
+  <Shape>
+    <Appearance>
+      <Material>
+      </Material>
+    </Appearance>
+    <Box solid='false' size='10 10 10'>
+    </Box>
+  </Shape>
+</Transform>
+<Transform DEF='Real'  translation='0 0 200' scaleOrientation='0 0 0 0' scale='10 10 10' rotation='0 0 0 0' bboxCenter='5 5 5'>
+  <Shape>
+    <Appearance>
+      <Material emissiveColor='0.2 0.2 1' diffuseColor='0.2 0.2 1'>
+      </Material>
+    </Appearance>
+    <Box solid='false' size='10 10 10'>
+    </Box>
+  </Shape>
+</Transform>
+</Scene>
+</X3D>
